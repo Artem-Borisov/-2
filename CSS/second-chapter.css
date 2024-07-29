@@ -1,0 +1,44 @@
+.second-chapter__block {
+
+}
+
+.second-chapter__block h3 {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.second-chapter__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.second-chapter__comment {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #5e5e5e;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.second-chapter__group {
+    border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.second-chapter__img {
+    margin: 0 auto 30px;
+}
+
+.second-chapter__img_group {
+    margin-bottom: 15px;
+}

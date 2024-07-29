@@ -66,6 +66,28 @@
                 </div>
             </div>
         </section>
+
+        <section class="section second-chapter" id="two">
+            <div class="container">
+                <div class="second-chapter__block">
+                    <h3>Отступ задается последнему возможному элементу в DOM-дереве</h3>
+                    <p class="second-chapter__text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:</p>
+                    <img class="second-chapter__img"  src="/IMG/image 3.jpg" alt="Фрагмент HTML кода">
+                    <img class="second-chapter__img" src="/IMG/image 4.jpg" alt="Результат кода">
+                    <p class="second-chapter__text">Отступ делают за счёт соседних элементов, а не дочерних:</p>
+                    <div class="second-chapter__group">
+                        <img class="second-chapter__img_group" src="/IMG/image 5.jpg" alt="Наглядный пример отступов">
+                        <p class="second-chapter__comment"><b>ВАЖНО:</b> здесь <i>.list-item</i> — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</p>
+                    </div>
+                    <p class="second-chapter__text">Казалось бы, можно задать отступ параграфу <i>&lt;p&gt;</i> , либо обёртке <i>&lt;article&gt;</i>  для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.</p>
+                    <p class="second-chapter__text">Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.</p>
+                    <img class="second-chapter__img" src="/IMG/image 6.jpg" alt="Фрагмент кода HTML">
+                    <p class="second-chapter__text">В случае с заголовком, если ему необходим отступ сверху, последним элементом будет section. Именно для него задается padding-top, а не div с классом container. Свойства margin, которые стоят по умолчанию необходимо обнулить.</p>
+                    <img class="second-chapter__img" src="/IMG/image 7.jpg" alt="Наглядный пример отступа для заголовка">
+                    <p class="second-chapter__text">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
