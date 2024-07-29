@@ -1,0 +1,30 @@
+.title {
+
+}
+
+.title__text {
+
+}
+
+.title__text h1 {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.title__text p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.title__text p:last-of-type {
+    margin-bottom: 0px;
+}
+

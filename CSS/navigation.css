@@ -1,0 +1,39 @@
+.container_shadow {
+    background: #f1f1f1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+
+.navigation__block h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 20px;
+    
+}
+
+.navigation__links {
+    margin-left: 20px;
+    list-style: decimal;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 153%;
+    color: #02535f;
+    text-decoration: underline;
+}
+
+.navigation__first-link {
+
+}
+
+.navigation__second-link {
+
+}
+
+.navigation__third-link {
+    
+}
