@@ -1,0 +1,56 @@
+.first-chapter__block h3{
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.first-chapter__image1 {
+    display: inline-block;
+    float: left;
+    width: 560px;
+    height: 415px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.first-chapter__description-image1 {
+    display: inline-block;
+    width: 490px;
+    height: 415px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.first-chapter__description-image1 p {
+    margin-bottom: 30px;
+    width: 490px;
+}
+.first-chapter__description-image2 {
+    display: inline-block;
+    width: 490px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-right: 30px;
+}
+
+.first-chapter__description-image2 p {
+    margin-bottom: 30px;
+    width: 480px;
+}
+
+.first-chapter__image2 {
+    float: right;
+    display: inline-block;
+    width: 560px;
+    height: 279px;
+}
