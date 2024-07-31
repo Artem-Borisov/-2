@@ -1,0 +1,33 @@
+.third-chapter__block {
+
+}
+
+.third-chapter__block h3 {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.third-chapter__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.third-chapter__img {
+    margin: 0 auto 30px;
+}
+
+.third-chapter__img:last-child {
+    margin: 0 auto 0;
+}
+
+.third-chapter__img_not-margin {
+    margin-bottom: 0;
+}

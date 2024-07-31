@@ -88,6 +88,44 @@
                 </div>
             </div>
         </section>
+
+        <section class="section third-chapter">
+            <div class="container">
+                <div class="third-chapter__block">
+                    <h3>Для последнего элемента группы отступ всегда обнуляется</h3>
+                    <p class="third-chapter__text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
+                    <p class="third-chapter__text">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.</p>
+                    <img class="third-chapter__img" src="/IMG/image 8.jpg" alt="">
+                    <p class="third-chapter__text">В соответствии со вторым принципом: последний margin обнуляется, а нижний отступ задаётся через padding для section. Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 100px задаю секциям padding-top:50px и padding-bottom:50px.</p>
+                    <img class="third-chapter__img" src="/IMG/image 9.jpg" alt="">
+                    <img class="third-chapter__img third-chapter__img_not-margin" src="/IMG/image 10.jpg" alt="">
+                    <img class="third-chapter__img" src="/IMG/image 11.jpg" alt="">
+                    <p class="third-chapter__text">Для большего понимания рассмотрим другой пример, который часто встречается на практике:</p>
+                    <img class="third-chapter__img" src="/IMG/image 12.jpg" alt="">
+                    <img class="third-chapter__img" src="/IMG/image 13.jpg" alt="">
+                    <p class="third-chapter__text">Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:</p>
+                    <img class="third-chapter__img" src="/IMG/image 14.jpg" alt="">
+                    <p class="third-chapter__text">Советую использовать псевдоклассы :last-child чаще других, например так:</p>
+                    <img class="third-chapter__img" src="/IMG/image 15.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="section conclusions">
+            <div class="container container_shadow">
+                <div class="conclusions__block">
+                    <h2>Подытожим:</h2>
+                    <ul class="conclusions__list">
+                        <li class="conclusions__list-text">— отступы задаём от предыдущего элемента к следующему</li>
+                        <li class="conclusions__list-text">— используем только margin-right и margin-bottom</li>
+                        <li class="conclusions__list-text">— внешние отступы задаются только между соседями</li>
+                        <li class="conclusions__list-text">— внутренний отступ задаём самому верхнему элементу в дом дереве</li>
+                        <li class="conclusions__list-text">— последнему элементу группы отступ всегда обнуляем</li>
+                    </ul>
+                    <p class="conclusions__text">Конечно бывают исключения. Ведь макеты бывают различной сложности. Иногда базовые принципы приходится нарушать в угоду дизайнерского решения или простоты вёрстки. Но для этого эти принципы необходимо хорошо знать.</p>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

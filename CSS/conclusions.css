@@ -1,0 +1,37 @@
+.conclusions {
+    margin-bottom: 50px;
+}
+
+.conclusions__block {
+    
+}
+
+.conclusions__block h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.conclusions__list-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.conclusions__list-text:last-child {
+    margin-bottom: 30px;
+}
+
+.conclusions__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+}
