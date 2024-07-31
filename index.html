@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Отступы</title>
-    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
                 <div class="first-chapter__block">
                     <h3>Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h3>
                     <figure class="first-chapter__image1">
-                        <img src="../IMG/image 1.jpg" alt="Четыре картинки котика, между которыми наглядно изображена работа margin">
+                        <img src="IMG/image 1.jpg" alt="Четыре картинки котика, между которыми наглядно изображена работа margin">
                     </figure>
                     <div class="first-chapter__description-image1">
                         <p><b>ВАЖНО:</b> <i>margin</i> всегда задают от предыдущего элемента к следующему.</p>
@@ -61,7 +61,7 @@
                         <p>Изначально элемент статичен, а его положение может меняться только под воздействием свойств других блоков или свойств родителя.</p>
                     </div>
                     <figure class="first-chapter__image2">
-                        <img src="../IMG/image 2.jpg" alt="Картинка котика на подоконнике, наглядное изображение отступа внутри блока">
+                        <img src="IMG/image 2.jpg" alt="Картинка котика на подоконнике, наглядное изображение отступа внутри блока">
                     </figure>
                 </div>
             </div>
@@ -72,18 +72,18 @@
                 <div class="second-chapter__block">
                     <h3>Отступ задается последнему возможному элементу в DOM-дереве</h3>
                     <p class="second-chapter__text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:</p>
-                    <img class="second-chapter__img"  src="../IMG/image 3.jpg" alt="Фрагмент HTML кода">
-                    <img class="second-chapter__img" src="../IMG/image 4.jpg" alt="Результат кода">
+                    <img class="second-chapter__img"  src="IMG/image 3.jpg" alt="Фрагмент HTML кода">
+                    <img class="second-chapter__img" src="IMG/image 4.jpg" alt="Результат кода">
                     <p class="second-chapter__text">Отступ делают за счёт соседних элементов, а не дочерних:</p>
                     <div class="second-chapter__group">
-                        <img class="second-chapter__img_group" src="../IMG/image 5.jpg" alt="Наглядный пример отступов">
+                        <img class="second-chapter__img_group" src="IMG/image 5.jpg" alt="Наглядный пример отступов">
                         <p class="second-chapter__comment"><b>ВАЖНО:</b> здесь <i>.list-item</i> — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</p>
                     </div>
                     <p class="second-chapter__text">Казалось бы, можно задать отступ параграфу <i>&lt;p&gt;</i> , либо обёртке <i>&lt;article&gt;</i>  для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.</p>
                     <p class="second-chapter__text">Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.</p>
-                    <img class="second-chapter__img" src="../IMG/image 6.jpg" alt="Фрагмент кода HTML">
+                    <img class="second-chapter__img" src="IMG/image 6.jpg" alt="Фрагмент кода HTML">
                     <p class="second-chapter__text">В случае с заголовком, если ему необходим отступ сверху, последним элементом будет section. Именно для него задается padding-top, а не div с классом container. Свойства margin, которые стоят по умолчанию необходимо обнулить.</p>
-                    <img class="second-chapter__img" src="../IMG/image 7.jpg" alt="Наглядный пример отступа для заголовка">
+                    <img class="second-chapter__img" src="IMG/image 7.jpg" alt="Наглядный пример отступа для заголовка">
                     <p class="second-chapter__text">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
                 </div>
             </div>
@@ -95,18 +95,18 @@
                     <h3>Для последнего элемента группы отступ всегда обнуляется</h3>
                     <p class="third-chapter__text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
                     <p class="third-chapter__text">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.</p>
-                    <img class="third-chapter__img" src="../IMG/image 8.jpg" alt="">
+                    <img class="third-chapter__img" src="IMG/image 8.jpg" alt="">
                     <p class="third-chapter__text">В соответствии со вторым принципом: последний margin обнуляется, а нижний отступ задаётся через padding для section. Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 100px задаю секциям padding-top:50px и padding-bottom:50px.</p>
-                    <img class="third-chapter__img" src="../IMG/image 9.jpg" alt="">
+                    <img class="third-chapter__img" src="IMG/image 9.jpg" alt="">
                     <img class="third-chapter__img third-chapter__img_not-margin" src="/IMG/image 10.jpg" alt="">
-                    <img class="third-chapter__img" src="../IMG/image 11.jpg" alt="">
+                    <img class="third-chapter__img" src="IMG/image 11.jpg" alt="">
                     <p class="third-chapter__text">Для большего понимания рассмотрим другой пример, который часто встречается на практике:</p>
-                    <img class="third-chapter__img" src="../IMG/image 12.jpg" alt="">
-                    <img class="third-chapter__img" src="../IMG/image 13.jpg" alt="">
+                    <img class="third-chapter__img" src="IMG/image 12.jpg" alt="">
+                    <img class="third-chapter__img" src="IMG/image 13.jpg" alt="">
                     <p class="third-chapter__text">Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:</p>
-                    <img class="third-chapter__img" src="../IMG/image 14.jpg" alt="">
+                    <img class="third-chapter__img" src="IMG/image 14.jpg" alt="">
                     <p class="third-chapter__text">Советую использовать псевдоклассы :last-child чаще других, например так:</p>
-                    <img class="third-chapter__img" src="../IMG/image 15.jpg" alt="">
+                    <img class="third-chapter__img" src="IMG/image 15.jpg" alt="">
                 </div>
             </div>
         </section>
